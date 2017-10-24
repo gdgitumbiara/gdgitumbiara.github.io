@@ -1,0 +1,164 @@
+/*Navbar - Start*/
+nav ul {
+    margin: 0;
+    float: right;
+}
+
+header .nav {
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    transition: top .5s;
+}
+
+.primary-nav {
+    background-color: transparent;
+    height: 70px;
+}
+
+.nav-wrapper a {
+    color: #455a64;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.right li {
+    margin-left: 40px;
+}
+
+.right li a {
+    color: #455a64;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 6px solid transparent;
+    text-transform: uppercase;
+    transition: all 0.3s ease-out;
+}
+
+.right li a:hover {
+    border-bottom-color: #03a9f4;
+    background-color: transparent;
+}
+/*Navbar - End*/
+
+/*Home - Start*/
+#home {
+  background: url(../img/_GDG_Itumbiara/_MG_3975.jpg) no-repeat fixed center center / cover;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#home .sec-overlay {
+  background: rgba(0, 0, 0, .8);
+  width: 100%;
+  height: 100%;
+}
+
+.home-content {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.home-inner {
+  display: table;
+  height: calc(100vh - 50px);
+  padding-top: 80px;
+  width: 100%;
+}
+
+.home-title {
+  font-size: 72px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 38px;
+  text-transform: uppercase;
+}
+
+/*Home - End*/
+/*Contedudo - Start*/
+/*Quem Somos - Start */
+#quemsomos {
+  display: flex;
+}
+
+#quemsomos .card {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#quemsomos .card-content {
+  color: #858585;
+  padding: 10px;
+}
+
+#quemsomos .card-title {
+  color: #696969;
+  font-size: 3.125rem;
+  margin-bottom: 15px;
+}
+
+#quemsomos a {
+  color: #858585;
+}
+
+#quemsomos p {
+  font-size: 1rem;
+  text-align: justify;
+}
+/*Quem Somos - End*/
+/*Iniciativas - Start*/
+#iniciativas {
+  display: flex;
+}
+
+#iniciativas .card {
+  margin: 1.5625rem 0 1.5625rem 0;
+}
+
+#iniciativas p {
+  font-size: 1rem;
+  text-align: justify;
+}
+
+/*Iniciaticas - End*/
+/*Agenda - Start*/
+/*Agenda - End*/
+/*Equipe - Start*/ 
+
+#equipe .container {
+  display: flex;
+}
+
+
+/*Equipe - End*/
+/*Contato - Start*/
+/*Contato - End*/
+/*Conteudo - End*/
+/*Footer - Start*/
+.page-footer {
+  background-color: #808080;
+}
+
+.page-footer a {
+  color: #fff;
+}
+
+.page-footer .footer-copyright {
+  background: rgba(0, 0, 0, 0.15);
+}
+/*Footer - End*/
