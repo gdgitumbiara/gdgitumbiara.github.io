@@ -144,6 +144,23 @@ header .nav {
   display: flex;
 }
 
+#equipe .container .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#equipe .header {
+  padding: 2em 0 0;
+  text-align: center;
+}
+
+#equipe .header span {
+  font-size: 28px;
+}
+
+#equipe .header p {
+  font-size: 16px;
+}
 
 /*Equipe - End*/
 /*Contato - Start*/
