@@ -140,11 +140,11 @@ header .nav {
 /*Agenda - End*/
 /*Equipe - Start*/ 
 
-#equipe .container {
+#equipe .container  {
   display: flex;
 }
 
-#equipe .container .row {
+#equipe .row {
   margin-left: auto;
   margin-right: auto;
 }
@@ -161,18 +161,51 @@ header .nav {
 #equipe .header p {
   font-size: 16px;
 }
-
 /*Equipe - End*/
+
 /*Contato - Start*/
+#contato .container {
+  display: flex;
+}
+
+#contato .row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contato .header {
+  padding: 2em 0 0;
+  text-align: center;
+}
+
+#contato .header span {
+  font-size: 28px;
+}
+
+#contato .header p {
+  font-size: 16px;
+}
 /*Contato - End*/
+
+
 /*Conteudo - End*/
+
+
 /*Footer - Start*/
 .page-footer {
   background-color: #808080;
 }
 
+.page-footer p {
+  text-align: justify;
+}
+
 .page-footer a {
   color: #fff;
+}
+
+.page-footer .l6 a {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .page-footer .footer-copyright {
