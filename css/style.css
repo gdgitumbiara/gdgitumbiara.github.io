@@ -11,15 +11,16 @@ header .nav {
     transition: top .5s;
 }
 
+.brand-logo img{
+  width: 55%;
+  padding: 0;
+  border: none;
+  height: 70px;
+}
+
 .primary-nav {
     background-color: transparent;
     height: 70px;
-}
-
-.nav-wrapper a {
-    color: #455a64;
-    text-transform: uppercase;
-    font-weight: 500;
 }
 
 .right li {
@@ -148,7 +149,7 @@ header .nav {
   margin-right: auto;
 }
 
-#equipe .header {
+#equipe .row .header {
   padding: 2em 0 0;
   text-align: center;
 }
