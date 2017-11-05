@@ -19,7 +19,7 @@ header .nav {
 }
 
 .primary-nav {
-    background-color: transparent;
+    background-color: #fff;
     height: 70px;
 }
 
@@ -140,6 +140,10 @@ header .nav {
 /*Agenda - Start*/
 /*Agenda - End*/
 /*Equipe - Start*/  
+#equipe {
+  background-color: #f7f7f7;
+}
+
 #equipe .container  {
   display: flex;
 }
