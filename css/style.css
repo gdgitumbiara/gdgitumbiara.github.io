@@ -105,18 +105,18 @@ header .nav {
 }
 
 #quemsomos .card-content {
-  color: #858585;
+  color: #000;
   padding: 10px;
 }
 
 #quemsomos .card-title {
-  color: #696969;
+  color: #000;
   font-size: 3.125rem;
   margin-bottom: 15px;
 }
 
 #quemsomos a {
-  color: #858585;
+  color: #000;
 }
 
 #quemsomos p {
