@@ -12,8 +12,9 @@ header .nav {
 }
 
 .brand-logo img{
-  width: 100%;
-  padding: 5px;
+  width: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: none;
   height: 70px;
 }
@@ -100,6 +101,7 @@ header .nav {
 #quemsomos .card {
   margin-top: 25px;
   margin-bottom: 25px;
+  border-radius: 5px;
 }
 
 #quemsomos .card-content {
@@ -123,15 +125,25 @@ header .nav {
 }
 /*Quem Somos - End*/
 /*Iniciativas - Start*/
-#iniciativas {
-  display: flex;
+#iniciativas .row .header {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#iniciativas .header span {
+  font-size: 28px;
+}
+
+#iniciativas .header p {
+  font-size: 16px;
 }
 
 #iniciativas .card {
   margin: 1.5625rem 0 1.5625rem 0;
 }
 
-#iniciativas p {
+#iniciativas .card-horizontal p {
   font-size: 1rem;
   text-align: justify;
 }
