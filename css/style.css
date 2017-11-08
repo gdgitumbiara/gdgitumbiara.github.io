@@ -96,9 +96,10 @@ header .nav {
 /*Quem Somos - Start */
 #quemsomos {
   display: flex;
+  background-color: #f7f7f7;
 }
 
-#quemsomos .card {
+/*#quemsomos .card {
   margin-top: 25px;
   margin-bottom: 25px;
   border-radius: 5px;
@@ -107,12 +108,16 @@ header .nav {
 #quemsomos .card-content {
   color: #000;
   padding: 10px;
+}*/
+#quemsomos img {
+  margin-top: 45px;
 }
 
-#quemsomos .card-title {
+#quemsomos h2 {
   color: #000;
   font-size: 3.125rem;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 #quemsomos a {
@@ -121,11 +126,12 @@ header .nav {
 
 #quemsomos p {
   font-size: 1rem;
-  text-align: justify;
+  text-align: center;
 }
 /*Quem Somos - End*/
 /*Iniciativas - Start*/
 #iniciativas .row .header {
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -176,6 +182,10 @@ header .nav {
 
 #equipe .header p {
   font-size: 16px;
+}
+
+#equipe .col {
+  padding: 0 .45rem;
 }
 /*Equipe - End*/
 
