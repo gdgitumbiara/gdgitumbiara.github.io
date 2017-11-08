@@ -177,6 +177,14 @@ header .nav {
 #equipe .col {
   padding: 0 .45rem;
 }
+
+#equipe .card-content .card-title {
+  text-align: center;
+}
+
+#equipe .card-content p {
+  text-align: center;
+}
 /*Equipe - End*/
 
 /*Contato - Start*/
