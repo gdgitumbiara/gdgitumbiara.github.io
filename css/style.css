@@ -139,9 +139,8 @@ header .nav {
   margin: 1.5625rem 0 1.5625rem 0;
 }
 
-#iniciativas .card-horizontal p {
-  font-size: 1rem;
-  text-align: justify;
+#iniciativas .card-content {
+  text-align: center;
 }
 
 /*Iniciaticas - End*/
