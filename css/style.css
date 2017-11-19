@@ -13,10 +13,10 @@ header .nav {
 
 .brand-logo img{
   width: auto;
-  padding-top: 5px;
+  padding-top: 15px;
   padding-bottom: 5px;
   border: none;
-  height: 70px;
+  height: 60px;
 }
 
 .primary-nav {
