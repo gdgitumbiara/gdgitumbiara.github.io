@@ -1,3 +1,8 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
 /*Navbar - Start*/
 nav ul {
     margin: 0;
@@ -96,52 +101,84 @@ header .nav {
 /*Quem Somos - Start */
 #quemsomos {
   display: flex;
-  background-color: #f7f7f7;
+}
+
+#quemsomos .row{
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  text-align: center;
 }
 
 #quemsomos img {
-  margin-top: 45px;
+  margin-top: 15px;
 }
 
 #quemsomos h2 {
-  color: #000;
   font-size: 3.125rem;
   margin-bottom: 15px;
-  text-align: center;
 }
 
 #quemsomos a {
   color: #000;
 }
-
+ 
 #quemsomos p {
-  font-size: 1rem;
-  text-align: center;
+  font-size: 1.1rem;
 }
 /*Quem Somos - End*/
 /*Iniciativas - Start*/
-#iniciativas .row .header {
-  margin-top: 30px;
-  margin-left: auto;
+#iniciativas {
+  background-color: #78909C;
+}
+
+#iniciativas .row {
+  margin-top: 0;
   margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
   text-align: center;
 }
 
-#iniciativas .header span {
+#iniciativas  span, h5 {
   font-size: 28px;
+  color: #fff;
 }
 
-#iniciativas .header p {
-  font-size: 16px;
+#iniciativas  p {
+  font-size: 1.1rem;
+  color: #fff;
+}
+
+#iniciativas .material-icons{
+  color: #CFD8DC;
 }
 
 
 /*Iniciaticas - End*/
 /*Agenda - Start*/
+
+#agenda .row {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#agenda .header span {
+  font-size: 28px;
+}
+
+#agenda .header p {
+  font-size: 1.1rem;
+}
+
 /*Agenda - End*/
 /*Equipe - Start*/  
 #equipe {
-  background-color: #f7f7f7;
+  background-color: #78909C;
 }
 
 #equipe .container  {
@@ -151,10 +188,10 @@ header .nav {
 #equipe .row {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0;
 }
 
 #equipe .row .header {
-  padding: 2em 0 0;
   text-align: center;
 }
 
@@ -164,6 +201,11 @@ header .nav {
 
 #equipe .header p {
   font-size: 16px;
+}
+
+#equipe .card {
+  border-radius: 4.5px;
+  background-color: #CFD8DC;
 }
 
 #equipe .card-content .card-title {
