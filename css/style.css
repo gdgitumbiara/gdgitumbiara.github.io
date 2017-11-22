@@ -193,6 +193,7 @@ header .nav {
 
 #equipe .row .header {
   text-align: center;
+  color: #fff;
 }
 
 #equipe .header span {
@@ -201,6 +202,10 @@ header .nav {
 
 #equipe .header p {
   font-size: 16px;
+}
+
+#equipe .header p a {
+  color: #000;
 }
 
 #equipe .card {
