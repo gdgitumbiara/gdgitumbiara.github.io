@@ -1,6 +1,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
-  color: #000;
+  background-color: #78909C;
+  color: #fff;
 }
 
 /*Navbar - Start*/
@@ -26,7 +27,7 @@ header .nav {
 
 .primary-nav {
     background-color: #fff;
-    height: 70px;
+    height: 68px;
 }
 
 .right li {
@@ -37,13 +38,13 @@ header .nav {
     color: #455a64;
     padding-left: 0px;
     padding-right: 0px;
-    border-bottom: 6px solid transparent;
+    border-bottom: 4px solid transparent;
     text-transform: uppercase;
     transition: all 0.3s ease-out;
 }
 
 .right li a:hover {
-    border-bottom-color: #03a9f4;
+    border-bottom-color: #78909C;
     background-color: transparent;
 }
 /*Navbar - End*/
@@ -213,12 +214,18 @@ header .nav {
   background-color: #CFD8DC;
 }
 
+#equipe .card-image img {
+  border-radius: 4.5px;
+}
+
 #equipe .card-content .card-title {
   text-align: center;
+  color: #78909C;
 }
 
 #equipe .card-content p {
   text-align: center;
+  color: #78909C;
 }
 /*Equipe - End*/
 
